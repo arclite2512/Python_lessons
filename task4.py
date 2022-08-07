@@ -9,6 +9,8 @@ while n >= 1:
         print(max1)
         max1 = n % 10
         print(max1)
-    elif n > 9:
+    if n > 9:
+        continue
+    else:
+        print("Максимальное цифра в числе ", max1)
         break
-print("Максимальное цифра в числе ", max1)
