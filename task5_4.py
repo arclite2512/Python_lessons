@@ -13,4 +13,3 @@ with open('file4.txt', 'r', encoding='utf-8') as f:
         rus_nums.append(f'{new_line[0].capitalize()} {new_line[1]} {new_line[2]}\n')
     with open('file4_2.txt', 'w', encoding='utf-8') as f2:
         f2.writelines(rus_nums)
-        
